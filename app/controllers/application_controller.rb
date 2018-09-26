@@ -23,7 +23,7 @@ class ApplicationController < Sinatra::Base
   end
   
   post '/posts' do
-    
+    params
   end
   
   get '/posts/:id' do
@@ -45,4 +45,4 @@ class ApplicationController < Sinatra::Base
     @post.destroy
   end
 end
-      
+        
