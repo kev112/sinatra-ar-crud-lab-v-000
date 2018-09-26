@@ -1,5 +1,6 @@
 <form method="post" action="/posts/<%= params[:id] =>">
+  <input id="hidden" type="hidden" name="_method" value="patch">
   <input name="name" type="text">
   <input name="content" type="text">
   <input value="Submit" type="submit">
-</form> 
+</form>   
