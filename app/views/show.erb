@@ -1,4 +1,7 @@
-<form method="post" action="/posts/<%= params[:id] =>">
+<% Post.all each do |post| >
+<% end >
+
+<form method="post" action="/posts/<%= params[:id] >">
    <input id="hidden" type="hidden" name="_method" value="delete">
    <input type="submit" value="delete">
 </form>
