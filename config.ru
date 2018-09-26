@@ -6,5 +6,5 @@ end
 
 use Rack::MethodOverride
 
-use Rack::MethodOverride
+# use Rack::MethodOverride
 run ApplicationController
