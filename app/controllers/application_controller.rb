@@ -45,4 +45,4 @@ class ApplicationController < Sinatra::Base
     @post.destroy
   end
 end
-    
+      
